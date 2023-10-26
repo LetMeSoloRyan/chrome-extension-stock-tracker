@@ -1,0 +1,128 @@
+html {
+	height: 450px;
+	width: 505px;
+  margin-top: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande";
+}
+
+#userinput {
+  margin: 20px 20px;
+  display: flex;
+}
+
+#add-container {
+  margin: 0px 20px;
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#input-name {
+  width: 155px;
+}
+
+.btn-original-color {
+  background-color: #4CAF50;
+  width: 290px;
+  border: 1px white solid;
+  color: white;
+}
+
+.color-change-btn {
+  background-color: #057f07;
+  width: 290px;
+  border: 1px white solid;
+  color: white;
+}
+
+#refresh {
+  padding: 10px 45px;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.sm-container {
+	height: 300px;
+	width: 500px;
+	margin: 20px 20px;
+	display: grid;
+	grid-column: 1fr 1fr;
+	grid-row: 1fr 1fr;
+}
+
+.sm-div {
+	width: 180px;
+	height: 120px;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border: 1px black solid;
+	border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#div1 {
+	grid-area: 1 / 1 / 2 / 2;
+
+}
+
+#div2 {
+	grid-area: 1 / 2 / 2 / 3;
+
+}
+
+#div3 {
+	grid-area: 2 / 1 / 3 / 2;
+
+}
+
+#div4 {
+	grid-area: 2 / 2 / 3 / 3;
+
+}
+
+.stock {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stockCode {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.stockName {
+    color: #808280;
+    font-size: 65%;
+}
+
+.priceChange {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price {
+  width: 100%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.color-change-positive {
+  color: #5de22c;
+}
+
+.color-change-negative {
+  color: #ff1414;
+}
